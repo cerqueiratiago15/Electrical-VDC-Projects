@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>ElectricalApplication</Name>
+    <Assembly>ElectricalSolutions.dll</Assembly>
+    <AddInId>64A8724A-69F7-4B68-8EC4-85ACD87B6ACB</AddInId>
+    <FullClassName>ElectricalSolutions.ElectricalApplication</FullClassName>
+    <VendorId>TPDC</VendorId>
+    <VendorDescription>Tiago Cerqueira</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+
+
