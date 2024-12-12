@@ -11,7 +11,7 @@ using Autodesk.Revit.UI;
 using ElectricalSolutions.Properties;
 using OfficeOpenXml;
 using SJSSolutions.Properties;
-using LicenseContext = OfficeOpenXml.LicenseContext;
+
 
 namespace ElectricalSolutions
 {
@@ -32,13 +32,14 @@ namespace ElectricalSolutions
        
         public Result OnStartup(UIControlledApplication application)
         {
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            
             currentDll = System.Reflection.Assembly.GetExecutingAssembly().Location;
             nameSpace = this.GetType().Assembly.GetName().Name + ".";
             AddinID = application.ActiveAddInId;
 
             try
             {
+
                 application.CreateRibbonTab(tabName);
                
                 RibbonPanel utilitiesPanel = AddRibbonPanel(application,
@@ -54,8 +55,9 @@ namespace ElectricalSolutions
             }
             catch 
             {
+            
 
-                
+
             }
 
 

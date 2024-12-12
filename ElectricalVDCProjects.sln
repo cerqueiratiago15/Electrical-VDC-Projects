@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricalSolutions", "ElectricalSolutions\ElectricalSolutions.csproj", "{8BC5CCA8-E867-4B51-8B20-627FBC8D36AC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ElectricalProjectsIntaller", "ElectricalProjectsIntaller\ElectricalProjectsIntaller.vdproj", "{D728C658-BFBF-412F-87AF-446F67EB804B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{8BC5CCA8-E867-4B51-8B20-627FBC8D36AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC5CCA8-E867-4B51-8B20-627FBC8D36AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC5CCA8-E867-4B51-8B20-627FBC8D36AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D728C658-BFBF-412F-87AF-446F67EB804B}.Debug|Any CPU.ActiveCfg = Debug
+		{D728C658-BFBF-412F-87AF-446F67EB804B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

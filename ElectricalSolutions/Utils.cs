@@ -2,8 +2,6 @@
 using Autodesk.Revit.DB.Electrical;
 using Autodesk.Revit.DB.ExtensibleStorage;
 using Autodesk.Revit.UI;
-using Microsoft.Office.Interop.Excel;
-using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -19,7 +17,7 @@ using System.Windows.Interop;
 using System.Windows.Media.Imaging;
 using DataTable = System.Data.DataTable;
 using Parameter = Autodesk.Revit.DB.Parameter;
-
+using Excel = Microsoft.Office.Interop.Excel;
 namespace ElectricalSolutions
 {
     public class Utils
@@ -778,63 +776,125 @@ namespace ElectricalSolutions
 
         public static DataTable ReadExcelFile(string filePath)
         {
-            using (var package = new ExcelPackage(new FileInfo(filePath)))
+            if (string.IsNullOrWhiteSpace(filePath)) throw new ArgumentException("File path cannot be null or empty.", nameof(filePath));
+
+            Excel.Application excelApp = null;
+            Excel.Workbook workbook = null;
+            Excel.Worksheet worksheet = null;
+            DataTable dataTable = new DataTable("ConduitDataTable");
+
+            try
             {
-                var workbook = package.Workbook;
-                if (workbook.Worksheets.Count == 0)
+                // Initialize Excel application
+                excelApp = new Excel.Application();
+                workbook = excelApp.Workbooks.Open(filePath);
+                worksheet = (Excel.Worksheet)workbook.Sheets[1];
+
+                Excel.Range usedRange = worksheet.UsedRange;
+                int rowCount = usedRange.Rows.Count;
+                int colCount = usedRange.Columns.Count;
+
+                // Add columns to DataTable using the first row as headers
+                for (int col = 1; col <= colCount; col++)
                 {
-                    throw new Exception("The Excel file does not contain any sheets.");
+                    string columnName = usedRange.Cells[1, col]?.Value2?.ToString() ?? $"Column{col}";
+                    dataTable.Columns.Add(columnName);
                 }
 
-                var worksheet = workbook.Worksheets[0];
-                var dataTable = new DataTable("ConduitData");
-
-                // Assume the first row contains headers
-                foreach (var firstRowCell in worksheet.Cells[1, 1, 1, worksheet.Dimension.End.Column])
+                // Add rows to DataTable
+                for (int row = 2; row <= rowCount; row++)
                 {
-                    dataTable.Columns.Add(firstRowCell.Text);
-                }
-
-                // Start from the second row to add data rows
-                for (int row = 2; row <= worksheet.Dimension.End.Row; row++)
-                {
-                    var newRow = dataTable.NewRow();
-                    for (int col = 1; col <= worksheet.Dimension.End.Column; col++)
+                    DataRow dataRow = dataTable.NewRow();
+                    for (int col = 1; col <= colCount; col++)
                     {
-                        newRow[col - 1] = worksheet.Cells[row, col].Text;
+                        dataRow[col - 1] = usedRange.Cells[row, col]?.Value2?.ToString() ?? string.Empty;
                     }
-                    dataTable.Rows.Add(newRow);
+                    dataTable.Rows.Add(dataRow);
                 }
 
+                workbook.Close();
                 return dataTable;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error reading Excel file to DataTable.", ex);
+            }
+            finally
+            {
+                // Release COM objects
+                if (worksheet != null) System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
+                if (workbook != null) System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                if (excelApp != null)
+                {
+                    excelApp.Quit();
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+                }
+
+                worksheet = null;
+                workbook = null;
+                excelApp = null;
+
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
 
         public static void WriteExcelFile(DataTable dataTable, string filePath)
         {
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            if (dataTable == null) throw new ArgumentNullException(nameof(dataTable));
+            if (string.IsNullOrWhiteSpace(filePath)) throw new ArgumentException("File path cannot be null or empty.", nameof(filePath));
 
-            using (var package = new ExcelPackage())
+            Excel.Application excelApp = null;
+            Excel.Workbook workbook = null;
+            Excel.Worksheet worksheet = null;
+
+            try
             {
-                var worksheet = package.Workbook.Worksheets.Add("Sheet1");
+                // Initialize Excel application
+                excelApp = new Excel.Application();
+                workbook = excelApp.Workbooks.Add();
+                worksheet = (Excel.Worksheet)workbook.Sheets[1];
 
-                // Add column headers
-                for (int col = 1; col <= dataTable.Columns.Count; col++)
+                // Write column headers
+                for (int col = 0; col < dataTable.Columns.Count; col++)
                 {
-                    worksheet.Cells[1, col].Value = dataTable.Columns[col - 1].ColumnName;
+                    worksheet.Cells[1, col + 1] = dataTable.Columns[col].ColumnName;
                 }
 
-                // Add rows
+                // Write data rows
                 for (int row = 0; row < dataTable.Rows.Count; row++)
                 {
                     for (int col = 0; col < dataTable.Columns.Count; col++)
                     {
-                        worksheet.Cells[row + 2, col + 1].Value = dataTable.Rows[row][col];
+                        worksheet.Cells[row + 2, col + 1] = dataTable.Rows[row][col]?.ToString();
                     }
                 }
 
-                // Save to file
-                File.WriteAllBytes(filePath, package.GetAsByteArray());
+                // Save the workbook
+                workbook.SaveAs(filePath);
+                workbook.Close();
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error writing DataTable to Excel file.", ex);
+            }
+            finally
+            {
+                // Release COM objects
+                if (worksheet != null) System.Runtime.InteropServices.Marshal.ReleaseComObject(worksheet);
+                if (workbook != null) System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+                if (excelApp != null)
+                {
+                    excelApp.Quit();
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+                }
+
+                worksheet = null;
+                workbook = null;
+                excelApp = null;
+
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
 
