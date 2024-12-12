@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1656B453C84C48AEB0A07DC410987492"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_27F4FB42D9158E3B3AE2A6F37A0306EF"
         "OwnerKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,44 +33,38 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2F2B71E4722248088A8AD22CF1B9E9C9"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
+        "OwnerKey" = "8:_AA08FDDA11E145C7A29D6572D7639DBF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_DCC58C03622C45E2ABD8DCF0C80D0CD8"
+        "OwnerKey" = "8:_3FE70EB970344A01856F860143D5FBD7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_452763B9DE104D50B17D07C6BA47CC1E"
+        "OwnerKey" = "8:_FC1680C2041D4B0894AE37E5971005AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_1656B453C84C48AEB0A07DC410987492"
+        "OwnerKey" = "8:_9E796F9EB22149E6B1AD0FB28D6BFEC0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_6CDFD991930A4647BDE169326BE59BC7"
+        "OwnerKey" = "8:_F91565F547A345EEBFD9AD97C01E94B5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_2F2B71E4722248088A8AD22CF1B9E9C9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "OwnerKey" = "8:_8EF5415A697B4EBEAE41BAC8FD71512F"
+        "OwnerKey" = "8:_B83D4F254CF64B4294A34CA2076833F3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,7 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_452763B9DE104D50B17D07C6BA47CC1E"
+        "MsmKey" = "8:_3FE70EB970344A01856F860143D5FBD7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -129,20 +117,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6CDFD991930A4647BDE169326BE59BC7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7590BFDF3C81DFC734D4F9A419C4FF9B"
         "OwnerKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8EF5415A697B4EBEAE41BAC8FD71512F"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -153,8 +129,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9E796F9EB22149E6B1AD0FB28D6BFEC0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A2D82A806FA87163526850C4585F940D"
         "OwnerKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AA08FDDA11E145C7A29D6572D7639DBF"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -166,6 +154,12 @@
         "Entry"
         {
         "MsmKey" = "8:_B260DA8662F14C83A036C8985815CCBE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B83D4F254CF64B4294A34CA2076833F3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -189,14 +183,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DCC58C03622C45E2ABD8DCF0C80D0CD8"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_F7CFB62C640FF2E554F966AD9845B210"
+        "OwnerKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F7CFB62C640FF2E554F966AD9845B210"
-        "OwnerKey" = "8:_334DE0DCBFAF014B17C0DB788DD0E6C7"
+        "MsmKey" = "8:_F91565F547A345EEBFD9AD97C01E94B5"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -219,6 +213,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FC1680C2041D4B0894AE37E5971005AD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_507C33C87F4A22A49DAD92BE4F37B3A2"
         "MsmSig" = "8:_UNDEFINED"
@@ -226,37 +226,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_452763B9DE104D50B17D07C6BA47CC1E"
+        "OwnerKey" = "8:_3FE70EB970344A01856F860143D5FBD7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1656B453C84C48AEB0A07DC410987492"
+        "OwnerKey" = "8:_FC1680C2041D4B0894AE37E5971005AD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6CDFD991930A4647BDE169326BE59BC7"
+        "OwnerKey" = "8:_9E796F9EB22149E6B1AD0FB28D6BFEC0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2F2B71E4722248088A8AD22CF1B9E9C9"
+        "OwnerKey" = "8:_F91565F547A345EEBFD9AD97C01E94B5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8EF5415A697B4EBEAE41BAC8FD71512F"
+        "OwnerKey" = "8:_B83D4F254CF64B4294A34CA2076833F3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DCC58C03622C45E2ABD8DCF0C80D0CD8"
+        "OwnerKey" = "8:_AA08FDDA11E145C7A29D6572D7639DBF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -412,6 +412,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -446,37 +454,6 @@
             {
             "SourcePath" = "8:..\\ElectricalSolutions\\ElectricalSolutions.ADDIN"
             "TargetName" = "8:ElectricalSolutions.ADDIN"
-            "Tag" = "8:"
-            "Folder" = "8:_CDD0151BDD1A4DB8952802EC8831CD35"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1656B453C84C48AEB0A07DC410987492"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1656B453C84C48AEB0A07DC410987492"
-                    {
-                    "Name" = "8:ElectricalSolutions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
-            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CDD0151BDD1A4DB8952802EC8831CD35"
             "Condition" = "8:"
@@ -555,37 +532,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2F2B71E4722248088A8AD22CF1B9E9C9"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2F2B71E4722248088A8AD22CF1B9E9C9"
-                    {
-                    "Name" = "8:ElectricalSolutions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8A33538FF48F4C0B8E01AD45402F5710"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_334DE0DCBFAF014B17C0DB788DD0E6C7"
             {
             "AssemblyRegister" = "3:1"
@@ -648,14 +594,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_452763B9DE104D50B17D07C6BA47CC1E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3FE70EB970344A01856F860143D5FBD7"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_452763B9DE104D50B17D07C6BA47CC1E"
+                    "_3FE70EB970344A01856F860143D5FBD7"
                     {
                     "Name" = "8:ElectricalSolutions.dll"
                     "Attributes" = "3:512"
@@ -843,37 +789,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6CDFD991930A4647BDE169326BE59BC7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6CDFD991930A4647BDE169326BE59BC7"
-                    {
-                    "Name" = "8:ElectricalSolutions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A0629B3C307842D585C795268696B5A0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7590BFDF3C81DFC734D4F9A419C4FF9B"
             {
             "AssemblyRegister" = "3:1"
@@ -903,37 +818,6 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8EF5415A697B4EBEAE41BAC8FD71512F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_8EF5415A697B4EBEAE41BAC8FD71512F"
-                    {
-                    "Name" = "8:ElectricalSolutions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CB64D3F5BCBD4EC3AEBF488A37898292"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E181966B882BE3C35A93AC6BB3E913B"
@@ -967,6 +851,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E796F9EB22149E6B1AD0FB28D6BFEC0"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9E796F9EB22149E6B1AD0FB28D6BFEC0"
+                    {
+                    "Name" = "8:ElectricalSolutions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A0629B3C307842D585C795268696B5A0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A2D82A806FA87163526850C4585F940D"
             {
             "AssemblyRegister" = "3:1"
@@ -996,6 +911,37 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA08FDDA11E145C7A29D6572D7639DBF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_AA08FDDA11E145C7A29D6572D7639DBF"
+                    {
+                    "Name" = "8:ElectricalSolutions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_CB64D3F5BCBD4EC3AEBF488A37898292"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AE4CF1637B178E66CFA270A6C9340954"
@@ -1033,6 +979,37 @@
             {
             "SourcePath" = "8:..\\ElectricalSolutions\\ElectricalSolutions.ADDIN"
             "TargetName" = "8:ElectricalSolutions.ADDIN"
+            "Tag" = "8:"
+            "Folder" = "8:_CB64D3F5BCBD4EC3AEBF488A37898292"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B83D4F254CF64B4294A34CA2076833F3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B83D4F254CF64B4294A34CA2076833F3"
+                    {
+                    "Name" = "8:ElectricalSolutions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CB64D3F5BCBD4EC3AEBF488A37898292"
             "Condition" = "8:"
@@ -1131,37 +1108,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DCC58C03622C45E2ABD8DCF0C80D0CD8"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_DCC58C03622C45E2ABD8DCF0C80D0CD8"
-                    {
-                    "Name" = "8:ElectricalSolutions.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_CB64D3F5BCBD4EC3AEBF488A37898292"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F7CFB62C640FF2E554F966AD9845B210"
             {
             "AssemblyRegister" = "3:1"
@@ -1191,6 +1137,37 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F91565F547A345EEBFD9AD97C01E94B5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F91565F547A345EEBFD9AD97C01E94B5"
+                    {
+                    "Name" = "8:ElectricalSolutions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8A33538FF48F4C0B8E01AD45402F5710"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F9D770E53794001D8CD1D896D696C0C1"
@@ -1253,6 +1230,37 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FC1680C2041D4B0894AE37E5971005AD"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ElectricalSolutions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FC1680C2041D4B0894AE37E5971005AD"
+                    {
+                    "Name" = "8:ElectricalSolutions.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ElectricalSolutions\\bin\\Debug\\ElectricalSolutions.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_CDD0151BDD1A4DB8952802EC8831CD35"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }

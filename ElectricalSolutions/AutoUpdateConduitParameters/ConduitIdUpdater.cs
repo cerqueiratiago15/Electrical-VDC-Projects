@@ -31,7 +31,6 @@ namespace ElectricalSolutions
 
         public string GetAdditionalInformation() => "Updater to update connected elements when Conduit_ID is modified";
 
-
         public ChangePriority GetChangePriority() => ChangePriority.FloorsRoofsStructuralWalls;
 
         public UpdaterId GetUpdaterId() => new UpdaterId(ElectricalApplication.AddinID, new Guid("B8D7215D-8F8C-44F7-8B9B-9CBB965EF9F2"));
