@@ -781,7 +781,7 @@ namespace ElectricalSolutions
             Excel.Application excelApp = null;
             Excel.Workbook workbook = null;
             Excel.Worksheet worksheet = null;
-            DataTable dataTable = new DataTable("ConduitDataTable");
+            DataTable dataTable = new DataTable("ConduitData");
 
             try
             {

@@ -31,7 +31,14 @@ namespace ElectricalSolutions
         {
             InitializeComponent();
             this.Doc = doc;
-           this.importedData = Utils.ReadDataTableFromExtensibleStorage(doc);
+            try
+            {
+                this.importedData = Utils.ReadDataTableFromExtensibleStorage(doc);
+            }
+            catch 
+            {
+                this.importedData = null;
+            }
             if (this.importedData !=null)
             {
                 dataGrid.ItemsSource = importedData.DefaultView; 

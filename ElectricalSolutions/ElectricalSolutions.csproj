@@ -288,8 +288,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)ElectricalSolutions.dll" "C:\ProgramData\Autodesk\Revit\Addins\2022\" /Y
-xcopy "$(ProjectDir)ElectricalSolutions.addin" "C:\ProgramData\Autodesk\Revit\Addins\2022\" /Y</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)ElectricalSolutions.dll" "C:\ProgramData\Autodesk\Revit\Addins\2021\" /Y
+xcopy "$(ProjectDir)ElectricalSolutions.addin" "C:\ProgramData\Autodesk\Revit\Addins\2021\" /Y</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Fody.6.8.2\build\Fody.targets" Condition="Exists('..\packages\Fody.6.8.2\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
